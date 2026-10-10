@@ -1,6 +1,6 @@
 # Status
 
-_Last updated: 2026-10-09_
+_Last updated: 2026-10-10_
 
 ## Where things are
 
@@ -19,6 +19,10 @@ Playable end to end: ten eras, three endings, saves with offline catch-up, a pac
 ## The device (2026-10-09)
 
 The interface is now one moulded plastic unit in ten colorways: seven-segment year, VFD compute and ticker, a 49-LED bargraph for orders of magnitude, LCD chips, spring keys with travel and LED indicators, module plates with printed labels, a CRT in Era 2. `src/skins/base.css` is the chassis, `eras.css` the colorways, `panels.css` the panels. `src/ui/readouts.ts` draws the seven-segment and LED bar. Generated art (176 pieces, see README) is wired through `src/ui/art.ts` and an optional `art` reference on log entries.
+
+## Deploy
+
+https://a-g-idle.charliedeck.com, Netlify site `a-g-idle-charliedeck`, built from `main` on `github.com/bigblueboo/a-g-idle`. DNS is a Netlify-managed record in the charliedeck.com zone.
 
 ## Next
 

@@ -11,6 +11,8 @@ npm run dev
 
 Opens on port 4731, reachable on the Tailscale network as `http://m4air:4731`. Production preview is `npm run preview` on 4732.
 
+Live at [a-g-idle.charliedeck.com](https://a-g-idle.charliedeck.com). Netlify builds every push to `main` on `github.com/bigblueboo/a-g-idle` (`netlify.toml` has the build settings).
+
 Dev hooks on the URL: `?era=N` jumps a fresh game to an era, `?speed=N` multiplies sim time, `?autoplay` lets the bot play, `?seed=N` fixes the seed, `?fresh` ignores the save, `?silent` mutes, `?now=ISO` pins the wall clock.
 
 ## Art
