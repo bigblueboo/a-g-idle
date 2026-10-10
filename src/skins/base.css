@@ -1,0 +1,882 @@
+/* The chassis. A moulded plastic device: panels, keys, readouts, labels. Colorways live in eras.css. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: var(--plastic-2);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--plastic-2);
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Plastic grain: fine noise over every surface, blended so it reads as texture, not dirt. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: var(--grain, 0.14);
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0.9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+input,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+/* Section headings are silk-screened onto the plastic. */
+h3,
+.engrave {
+  margin: 14px 0 6px;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--engrave);
+  text-shadow: var(--engrave-shadow);
+  font-weight: 700;
+}
+
+p {
+  margin: 6px 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.stat {
+  font-variant-numeric: tabular-nums;
+}
+
+.stat.big {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.warn {
+  color: var(--warn);
+}
+
+/* App shell: HUD panel, the bay, gate strip, key panel, tab keys. */
+#app {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-rows: auto 1fr auto auto auto;
+  height: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: var(--plastic);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12), inset 0 0 40px rgba(0, 0, 0, 0.18), 0 0 0 1px rgba(0, 0, 0, 0.4);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+#app > * {
+  min-width: 0;
+}
+
+/* A moulded panel: slight dome, a seam line beneath, screws in the corners. */
+.panel-plate {
+  position: relative;
+  background: linear-gradient(180deg, var(--plastic-3) 0%, var(--plastic) 30%, var(--plastic) 70%, var(--plastic-2) 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.panel-plate::before,
+.panel-plate::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, var(--plastic-3), var(--plastic-2) 70%);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.35), 0 1px 0 rgba(255, 255, 255, 0.25);
+  background-image: linear-gradient(135deg, transparent 42%, rgba(0, 0, 0, 0.55) 44%, rgba(0, 0, 0, 0.55) 56%, transparent 58%), radial-gradient(circle at 35% 35%, var(--plastic-3), var(--plastic-2) 70%);
+}
+
+.panel-plate::before {
+  left: 5px;
+}
+
+.panel-plate::after {
+  right: 5px;
+}
+
+/* HUD. */
+.hud {
+  padding: 8px 18px 8px;
+  padding-top: calc(10px + env(safe-area-inset-top));
+}
+
+.hud-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.hud-block {
+  display: grid;
+  gap: 3px;
+}
+
+.hud-block .engrave {
+  margin: 0;
+}
+
+.hud-right {
+  text-align: right;
+  min-width: 0;
+  flex: 1;
+}
+
+.hud-subjective {
+  display: block;
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* Readout glass: dark, recessed, slightly reflective. */
+.glass {
+  position: relative;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, var(--glass-2) 0%, var(--glass) 40%, var(--glass) 100%);
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.85), inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 1px 0 rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+
+.glass::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--scanlines, none), linear-gradient(180deg, rgba(255, 255, 255, 0.06), transparent 55%);
+  pointer-events: none;
+}
+
+.glass.wide {
+  display: block;
+}
+
+/* Seven-segment digits. */
+.sevenseg {
+  display: inline-flex;
+  gap: 0.14em;
+  font-size: 1.5rem;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.seg {
+  position: relative;
+  display: inline-block;
+  width: 0.6em;
+  height: 1em;
+  margin-right: 0.12em;
+}
+
+.seg i {
+  position: absolute;
+  background: var(--led-dim);
+  border-radius: 0.02em;
+}
+
+.seg i.lit {
+  background: var(--led);
+  box-shadow: 0 0 0.16em var(--led-glow);
+}
+
+.seg .a,
+.seg .d,
+.seg .g {
+  left: 0.1em;
+  right: 0.1em;
+  height: 0.13em;
+  clip-path: polygon(0.07em 0, calc(100% - 0.07em) 0, 100% 50%, calc(100% - 0.07em) 100%, 0.07em 100%, 0 50%);
+}
+
+.seg .a {
+  top: 0;
+}
+
+.seg .g {
+  top: 0.435em;
+}
+
+.seg .d {
+  bottom: 0;
+}
+
+.seg .b,
+.seg .c,
+.seg .e,
+.seg .f {
+  width: 0.13em;
+  height: 0.43em;
+  clip-path: polygon(0 0.07em, 50% 0, 100% 0.07em, 100% calc(100% - 0.07em), 50% 100%, 0 calc(100% - 0.07em));
+}
+
+.seg .b {
+  top: 0.06em;
+  right: 0;
+}
+
+.seg .c {
+  bottom: 0.06em;
+  right: 0;
+}
+
+.seg .e {
+  bottom: 0.06em;
+  left: 0;
+}
+
+.seg .f {
+  top: 0.06em;
+  left: 0;
+}
+
+.seg .dp {
+  bottom: 0;
+  right: -0.17em;
+  width: 0.12em;
+  height: 0.12em;
+  border-radius: 50%;
+}
+
+/* Vacuum-fluorescent text. */
+.vfd {
+  font-family: var(--font-mono);
+  color: var(--led);
+  text-shadow: 0 0 6px var(--led-glow);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-variant-numeric: tabular-nums;
+}
+
+.vfd.dim {
+  color: var(--led-soft);
+  text-shadow: none;
+  font-weight: 500;
+  font-size: 0.78rem;
+}
+
+/* LED bargraph. */
+.ledbar {
+  display: flex;
+  gap: 2px;
+  padding: 5px 6px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, var(--glass-2), var(--glass));
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.85), 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.led {
+  flex: 1;
+  height: 9px;
+  border-radius: 1px;
+  background: var(--led-dim);
+}
+
+.led.lit {
+  background: var(--led);
+  box-shadow: 0 0 4px var(--led-glow);
+}
+
+.led.hot.lit {
+  background: var(--led-hot);
+  box-shadow: 0 0 5px var(--led-hot);
+}
+
+.meter {
+  margin: 8px 0 6px;
+}
+
+.meter.crossed .led.lit:last-of-type,
+.meter.crossed .ledbar {
+  animation: crossed 500ms ease-out;
+}
+
+/* LCD chips: small grey-green windows with dark figures. */
+.hud-chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  padding: 3px 8px;
+  border-radius: 3px;
+  background: var(--lcd);
+  color: var(--lcd-text);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.45), 0 1px 0 rgba(255, 255, 255, 0.25);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.chip-label {
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.chip.warn {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.45), 0 0 0 1px var(--warn);
+}
+
+.hud-ticker {
+  margin-top: 8px;
+  min-height: 1.6em;
+}
+
+.hud.clamped .hud-year .seg i.lit {
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+/* The bay: a recessed area the panels sit in. */
+.main,
+.tab.log {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 12px 16px 16px;
+  -webkit-overflow-scrolling: touch;
+  background: var(--bay);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.22), inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tab.log {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.tab {
+  min-height: 100%;
+}
+
+/* Keys. Spring-loaded caps with travel. Every <button> is one unless it opts out (see dom.ts). */
+.key {
+  position: relative;
+  border: 0;
+  border-radius: var(--key-radius);
+  background: linear-gradient(180deg, var(--key-hi) 0%, var(--key) 45%, var(--key-lo) 100%);
+  color: var(--key-text);
+  text-shadow: var(--key-text-shadow);
+  box-shadow: 0 var(--travel) 0 var(--key-side), 0 calc(var(--travel) + 2px) 6px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.45), inset 0 -1px 0 rgba(0, 0, 0, 0.12);
+  transition: transform 50ms ease, box-shadow 50ms ease;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.key:active,
+.key.pulse,
+.key.holding {
+  transform: translateY(var(--travel));
+  box-shadow: 0 0 0 var(--key-side), 0 1px 2px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.key:disabled {
+  opacity: 0.55;
+  transform: none;
+}
+
+/* The Button: one big cap. */
+.button-area {
+  padding: 12px 18px 10px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  min-height: 88px;
+  font-size: 1.35rem;
+  letter-spacing: 0.16em;
+  --travel: 6px;
+  margin-bottom: 6px;
+}
+
+.verb-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.verb-sub {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  color: var(--key-sub);
+}
+
+.verb-button.self-press {
+  animation: selfpress 6s ease-in-out infinite;
+}
+
+.verb-button.danger {
+  box-shadow: 0 var(--travel) 0 var(--key-side), 0 calc(var(--travel) + 2px) 6px rgba(0, 0, 0, 0.35), 0 0 0 2px var(--warn), inset 0 1px 0 rgba(255, 255, 255, 0.45);
+}
+
+.tile-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tile-op {
+  flex: 1;
+  min-height: 44px;
+  font-size: 0.8rem;
+}
+
+/* Era 0 front panel: lamps, toggles, the DEPOSIT key. */
+.panel0 {
+  display: grid;
+  gap: 10px;
+}
+
+.lamps,
+.switches {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+}
+
+.lamp {
+  display: block;
+  height: 16px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 35%, var(--lamp-off-hi), var(--lamp-off) 70%);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6), inset 0 0 0 2px rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.lamp.lit {
+  background: radial-gradient(circle at 40% 35%, #fff2c7, var(--lamp-on) 60%, var(--lamp-on-edge) 100%);
+  box-shadow: 0 0 10px var(--lamp-on), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.switch {
+  position: relative;
+  height: 46px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--key-radius);
+  background: linear-gradient(180deg, var(--plastic-2), var(--plastic-dark));
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.switch i {
+  position: absolute;
+  left: 22%;
+  right: 22%;
+  top: 52%;
+  height: 36%;
+  border-radius: 3px;
+  background: linear-gradient(180deg, var(--switch-knob-hi), var(--switch-knob));
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  transition: top 80ms ease, background 80ms ease;
+}
+
+.switch.on i {
+  top: 12%;
+  background: linear-gradient(180deg, var(--accent-hi), var(--accent));
+}
+
+.panel0.match .deposit {
+  box-shadow: 0 var(--travel) 0 var(--key-side), 0 calc(var(--travel) + 2px) 6px rgba(0, 0, 0, 0.35), 0 0 0 3px var(--accent), inset 0 1px 0 rgba(255, 255, 255, 0.45);
+}
+
+.panel0.untouched .deposit {
+  animation: beckon 1.8s ease-in-out infinite;
+}
+
+/* Tab keys, with an LED that lights for the active one. */
+.tabbar {
+  display: flex;
+  gap: 8px;
+  padding: 10px 18px;
+  padding-bottom: calc(10px + env(safe-area-inset-bottom));
+}
+
+.tabbar .tab {
+  flex: 1;
+  min-height: 48px;
+  padding: 10px 4px 6px;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  color: var(--key-text);
+}
+
+.tabbar .tab::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  width: 14px;
+  height: 3px;
+  margin-left: -7px;
+  border-radius: 2px;
+  background: var(--led-dim);
+}
+
+.tabbar .tab.active::after {
+  background: var(--led);
+  box-shadow: 0 0 5px var(--led-glow);
+}
+
+.settings-trigger {
+  flex: 0 0 48px !important;
+  font-size: 1.05rem !important;
+}
+
+#app.no-button .button-area {
+  display: none;
+}
+
+/* Holds: the cap sinks and a bar fills across it. */
+.hold {
+  position: relative;
+  overflow: hidden;
+}
+
+.hold::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  background: var(--led);
+  box-shadow: 0 0 6px var(--led-glow);
+  transform: scaleX(var(--hold, 0));
+  transform-origin: left;
+  pointer-events: none;
+}
+
+.hold.held {
+  animation: held 400ms ease-out;
+}
+
+.hold.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Generic keys and sliders. */
+.action {
+  min-height: 44px;
+  padding: 8px 14px;
+  font-size: 0.78rem;
+}
+
+.action.quiet {
+  color: var(--key-sub);
+  font-weight: 600;
+}
+
+.action.warn {
+  color: var(--warn);
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, var(--glass-2), var(--glass));
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.8), 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 30px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, var(--key-hi), var(--key) 45%, var(--key-lo));
+  box-shadow: 0 2px 0 var(--key-side), 0 3px 5px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb::after {
+  content: "";
+}
+
+.gauge {
+  position: relative;
+  height: 10px;
+  margin: 6px 0;
+  border-radius: 3px;
+  background: linear-gradient(180deg, var(--glass-2), var(--glass));
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.8), 0 1px 0 rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+
+.bar {
+  position: absolute;
+  inset: 2px auto 2px 2px;
+  border-radius: 2px;
+  background: var(--led);
+  box-shadow: 0 0 5px var(--led-glow);
+  transition: width 250ms linear;
+}
+
+.bar.expect,
+.bar.upkeep,
+.bar.spiked,
+.bar.power.over {
+  background: var(--warn);
+  box-shadow: 0 0 5px var(--warn);
+  opacity: 0.85;
+}
+
+/* Modals: a smaller plastic unit over the device. */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 16px;
+}
+
+.modal {
+  width: min(100%, 420px);
+  max-height: 90vh;
+  overflow: auto;
+  padding: 16px;
+  border-radius: 10px;
+  background: var(--plastic);
+  color: var(--fg);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 20px 50px rgba(0, 0, 0, 0.5);
+  display: grid;
+  gap: 8px;
+}
+
+.setting {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-height: 44px;
+}
+
+.save-text {
+  width: 100%;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  background: var(--lcd);
+  color: var(--lcd-text);
+  border: 0;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.45);
+}
+
+.save-actions,
+.settings-actions,
+.ending-actions {
+  display: flex;
+  gap: 8px;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.35;
+  }
+}
+
+@keyframes held {
+  from {
+    box-shadow: 0 0 0 0 var(--led-glow);
+  }
+  to {
+    box-shadow: 0 0 0 12px transparent;
+  }
+}
+
+@keyframes selfpress {
+  0%,
+  90%,
+  100% {
+    transform: none;
+  }
+  93% {
+    transform: translateY(var(--travel));
+  }
+}
+
+@keyframes crossed {
+  0% {
+    filter: brightness(1.8);
+  }
+  100% {
+    filter: none;
+  }
+}
+
+@keyframes beckon {
+  50% {
+    box-shadow: 0 var(--travel) 0 var(--key-side), 0 calc(var(--travel) + 2px) 6px rgba(0, 0, 0, 0.35), 0 0 0 4px var(--accent), inset 0 1px 0 rgba(255, 255, 255, 0.45);
+  }
+}
+
+@media (min-width: 1024px) {
+  #app {
+    max-width: 1100px;
+    grid-template-columns: 320px 1fr 360px;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "hud hud hud"
+      "log main side"
+      "log button side";
+    column-gap: 0;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 18px;
+    height: calc(100% - 32px);
+  }
+  .hud {
+    grid-area: hud;
+  }
+  .main {
+    grid-area: main;
+  }
+  .tab.log {
+    grid-area: log;
+  }
+  .button-area {
+    grid-area: button;
+  }
+  .tabbar {
+    grid-area: side;
+    flex-direction: column;
+    align-self: start;
+  }
+  .tabbar .tab {
+    flex: 0 0 52px;
+  }
+  .tabbar .tab[data-tab="log"] {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .verb-button.self-press,
+  .hud.clamped .hud-year .seg i.lit,
+  .panel0.untouched .deposit {
+    animation: none;
+  }
+  .bar {
+    transition: none;
+  }
+}
+
+/* Slide switches, for the settings. */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  width: 44px;
+  height: 24px;
+  margin: 0;
+  border-radius: 12px;
+  background: linear-gradient(180deg, var(--glass-2), var(--glass));
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.8), 0 1px 0 rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  flex: none;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, var(--key-hi), var(--key) 45%, var(--key-lo));
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  transition: transform 120ms ease;
+}
+
+input[type="checkbox"]::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--led-dim);
+}
+
+input[type="checkbox"]:checked::before {
+  transform: translateX(20px);
+}
+
+input[type="checkbox"]:checked::after {
+  right: auto;
+  left: 8px;
+  background: var(--led);
+  box-shadow: 0 0 4px var(--led-glow);
+}

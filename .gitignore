@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+test-results
+playwright-report
+.DS_Store
+art/raw
+art/shards
+src/art/test
+.netlify

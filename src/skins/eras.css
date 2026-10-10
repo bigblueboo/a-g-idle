@@ -1,0 +1,425 @@
+/* Colorways. One device, ten moulds: the plastic, the keys, the readout glow, the screen. Keyed on <html data-era>. */
+
+:root {
+  --key-radius: 7px;
+  --travel: 4px;
+  --radius: 8px;
+  --radius-sm: 5px;
+  --radius-pill: 999px;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --drift: 0;
+  --grain: 0.14;
+  /* Globe and shells. */
+  --land: #7a8c5a;
+  --sea: #1f3650;
+  --sea-tile: #2b4a6b;
+  --glass-tile: #101014;
+  --grid: #3a3a44;
+  --reserve: #3b9b4a;
+  --upload: #c9a227;
+  --shell: #d9c8a0;
+  --sun: #ffd27a;
+  /* The switch panel returns for the ending in every skin. */
+  --lamp-off: #3a3a3a;
+  --lamp-off-hi: #555;
+  --lamp-on: #ffb347;
+  --lamp-on-edge: #c86e10;
+  --switch-knob: #a8a090;
+  --switch-knob-hi: #d8d0c0;
+  --glass: #0b0c0d;
+  --glass-2: #1a1c1e;
+  --led-dim: color-mix(in srgb, var(--led) 11%, transparent);
+  --led-glow: color-mix(in srgb, var(--led) 75%, transparent);
+  --led-soft: color-mix(in srgb, var(--led) 70%, #888);
+  --accent-hi: color-mix(in srgb, var(--accent) 70%, #fff);
+  --key-hi: color-mix(in srgb, var(--key) 82%, #fff);
+  --key-lo: color-mix(in srgb, var(--key) 88%, #000);
+  --key-side: color-mix(in srgb, var(--key) 55%, #000);
+  --plastic-3: color-mix(in srgb, var(--plastic) 88%, #fff);
+  --plastic-2: color-mix(in srgb, var(--plastic) 82%, #000);
+  --plastic-dark: color-mix(in srgb, var(--plastic) 55%, #000);
+  --bay: color-mix(in srgb, var(--plastic) 94%, #000);
+  --engrave-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+  --key-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+  /* Legacy names some panels still read. */
+  --bg: var(--plastic);
+  --line: var(--plastic-2);
+  --chip-bg: var(--plastic-3);
+  --meter-bg: var(--glass);
+}
+
+/* 0 Switches: ivory ABS, brass legends, amber lamps. */
+:root[data-era="0"] {
+  --plastic: #e9dfc6;
+  --key: #f1e9d6;
+  --key-text: #4a3a22;
+  --key-sub: #7a6a52;
+  --engrave: #5a4a32;
+  --fg: #2b2316;
+  --muted: #7a6a52;
+  --accent: #b8732a;
+  --warn: #a4382b;
+  --led: #ffa033;
+  --led-hot: #ff5a2e;
+  --lcd: #c8c3a8;
+  --lcd-text: #2a2416;
+  --screen-bg: #f6f0e0;
+  --screen-fg: #2b2316;
+  --font: var(--font-serif);
+}
+
+/* 1 Symbols: putty beige, red LEDs, paper in the screen. */
+:root[data-era="1"] {
+  --plastic: #d6d0bf;
+  --key: #e9e4d6;
+  --key-text: #2a2a28;
+  --key-sub: #6c6a60;
+  --engrave: #4a4a44;
+  --fg: #1e1e1a;
+  --muted: #6c6a60;
+  --accent: #1f5f8b;
+  --warn: #a4382b;
+  --led: #ff3b30;
+  --led-hot: #ff8c00;
+  --lcd: #bdc4ae;
+  --lcd-text: #1e2a1e;
+  --screen-bg: #f4f1e6;
+  --screen-fg: #1e1e1a;
+  --font: var(--font-mono);
+  --key-radius: 4px;
+  --radius: 4px;
+  --radius-sm: 2px;
+}
+
+:root[data-era="1"] .tab.log {
+  background: repeating-linear-gradient(var(--screen-bg) 0 22px, color-mix(in srgb, var(--screen-bg) 94%, #000) 22px 23px);
+}
+
+/* 2 Rules: charcoal case, phosphor-green readouts, a CRT for a screen. Goes 1-bit desktop in 1984. */
+:root[data-era="2"] {
+  --plastic: #2c2f2c;
+  --key: #4a4e4a;
+  --key-text: #d9f7de;
+  --key-sub: #9bc7a3;
+  --engrave: #9fb3a2;
+  --engrave-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+  --key-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  --fg: #cfe9d3;
+  --muted: #7fa686;
+  --accent: #4ef26a;
+  --warn: #ffb347;
+  --led: #4ef26a;
+  --led-hot: #ffb347;
+  --lcd: #1c2a1e;
+  --lcd-text: #8ef09e;
+  --screen-bg: #061008;
+  --screen-fg: #4ef26a;
+  --font: var(--font-mono);
+  --key-radius: 3px;
+  --radius: 3px;
+  --radius-sm: 2px;
+}
+
+:root[data-era="2"] {
+  --scanlines: repeating-linear-gradient(transparent 0 2px, rgba(0, 0, 0, 0.28) 2px 3px);
+}
+
+:root[data-era="2"] .tab.log {
+  text-shadow: 0 0 6px rgba(78, 242, 106, 0.45);
+  background-image: var(--scanlines);
+}
+
+:root[data-era="2"][data-period="desktop"] {
+  --plastic: #d8d8d0;
+  --key: #f4f4f0;
+  --key-text: #111;
+  --key-sub: #444;
+  --engrave: #222;
+  --engrave-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  --key-text-shadow: none;
+  --fg: #000;
+  --muted: #444;
+  --accent: #111;
+  --warn: #000;
+  --led: #111;
+  --led-hot: #111;
+  --glass: #f0f0ea;
+  --glass-2: #ffffff;
+  --led-dim: #d6d6cf;
+  --led-glow: transparent;
+  --lcd: #fff;
+  --lcd-text: #000;
+  --screen-bg: #fff;
+  --screen-fg: #000;
+  --font: "Chicago", "Charcoal", var(--font-sans);
+  --key-radius: 6px;
+}
+
+:root[data-era="2"][data-period="desktop"] {
+  --scanlines: none;
+}
+
+:root[data-era="2"][data-period="desktop"] .tab.log {
+  text-shadow: none;
+  background-image: none;
+}
+
+/* 3 Statistics: beige-box grey with a blue-grey LCD; glossy white after 2005. */
+:root[data-era="3"] {
+  --plastic: #cdcfc8;
+  --key: #e4e5df;
+  --key-text: #1f2a3a;
+  --key-sub: #556;
+  --engrave: #3d4552;
+  --fg: #111;
+  --muted: #555;
+  --accent: #0a246a;
+  --warn: #a00;
+  --led: #8fd0ff;
+  --led-hot: #ff8c42;
+  --lcd: #b9c7b2;
+  --lcd-text: #10203a;
+  --screen-bg: #ffffff;
+  --screen-fg: #111;
+  --font: Tahoma, Verdana, var(--font-sans);
+  --key-radius: 3px;
+  --radius: 2px;
+  --radius-sm: 2px;
+}
+
+:root[data-era="3"][data-period="glossy"] {
+  --plastic: #f1f3f6;
+  --key: #ffffff;
+  --key-text: #1a2a44;
+  --key-sub: #5a6a88;
+  --engrave: #5a6a88;
+  --accent: #2f7de1;
+  --warn: #d9534f;
+  --led: #4fb3ff;
+  --led-hot: #ff6a3d;
+  --lcd: #dfe9f5;
+  --lcd-text: #1a2a44;
+  --key-radius: 10px;
+  --radius: 10px;
+  --radius-sm: 6px;
+}
+
+/* 4 Gradients: black box, orange LEDs. */
+:root[data-era="4"] {
+  --plastic: #1b1d22;
+  --key: #2b2f36;
+  --key-text: #f0f0f0;
+  --key-sub: #9aa1ad;
+  --engrave: #8a919e;
+  --engrave-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+  --key-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  --fg: #e6e6e6;
+  --muted: #8a919e;
+  --accent: #ff8c42;
+  --warn: #ff5c5c;
+  --led: #ff8c42;
+  --led-hot: #ff3b30;
+  --lcd: #23262c;
+  --lcd-text: #ffb27a;
+  --screen-bg: #101216;
+  --screen-fg: #e6e6e6;
+  --font: var(--font-mono);
+  --key-radius: 5px;
+  --radius: 5px;
+  --radius-sm: 4px;
+}
+
+/* 5 Tokens: white unit, green LEDs. */
+:root[data-era="5"] {
+  --plastic: #f2f2f0;
+  --key: #ffffff;
+  --key-text: #1a1a1a;
+  --key-sub: #6b6b6b;
+  --engrave: #6b6b6b;
+  --fg: #1a1a1a;
+  --muted: #6b6b6b;
+  --accent: #10a37f;
+  --warn: #d64545;
+  --led: #19c48f;
+  --led-hot: #ff6a3d;
+  --lcd: #e4ebe6;
+  --lcd-text: #163a2e;
+  --screen-bg: #ffffff;
+  --screen-fg: #1a1a1a;
+  --font: var(--font-sans);
+  --key-radius: 10px;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+/* 6 Recursion: deep violet, and the mould tightens with --drift. */
+:root[data-era="6"] {
+  --plastic: #17141f;
+  --key: #272136;
+  --key-text: #efe9ff;
+  --key-sub: #9d93c6;
+  --engrave: #8f88b8;
+  --engrave-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+  --key-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  --fg: #e8e4ff;
+  --muted: #8f88b8;
+  --accent: #a78bfa;
+  --warn: #f472b6;
+  --led: #b79cff;
+  --led-hot: #f472b6;
+  --lcd: #1f1a2c;
+  --lcd-text: #cdbfff;
+  --screen-bg: #0e0c14;
+  --screen-fg: #e8e4ff;
+  --font: var(--font-sans);
+  --key-radius: calc(8px - 7px * var(--drift));
+  --radius: calc(10px - 8px * var(--drift));
+  --radius-sm: calc(6px - 5px * var(--drift));
+}
+
+:root[data-era="6"] body {
+  letter-spacing: calc(0.03em * var(--drift));
+  font-size: calc(15px - 2px * var(--drift));
+}
+
+:root[data-era="6"] .main {
+  padding: calc(12px - 6px * var(--drift)) calc(16px - 6px * var(--drift));
+}
+
+/* 7 Matter: sand-colored, warm white readouts, calm. */
+:root[data-era="7"] {
+  --plastic: #e3dacb;
+  --key: #efe8dc;
+  --key-text: #3a3028;
+  --key-sub: #7d746a;
+  --engrave: #6e6358;
+  --fg: #2a2622;
+  --muted: #7d746a;
+  --accent: #8a6d4e;
+  --warn: #b5533c;
+  --led: #ffe9c2;
+  --led-hot: #ffb27a;
+  --lcd: #d8d0c2;
+  --lcd-text: #2a2622;
+  --screen-bg: #f6f2ec;
+  --screen-fg: #2a2622;
+  --font: var(--font-serif);
+  --key-radius: 3px;
+  --radius: 3px;
+  --radius-sm: 2px;
+  --grain: 0.1;
+}
+
+:root[data-era="7"] body {
+  line-height: 1.6;
+}
+
+/* 8 Earth: navy case, cyan readouts. */
+:root[data-era="8"] {
+  --plastic: #0f1d2c;
+  --key: #1a2c40;
+  --key-text: #e6f0fa;
+  --key-sub: #8aa0b8;
+  --engrave: #7f93ab;
+  --engrave-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+  --key-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  --fg: #dfe9f5;
+  --muted: #7f93ab;
+  --accent: #5ac8fa;
+  --warn: #ff7a59;
+  --led: #5ac8fa;
+  --led-hot: #ff7a59;
+  --lcd: #142033;
+  --lcd-text: #9fdcff;
+  --screen-bg: #0b1420;
+  --screen-fg: #dfe9f5;
+  --font: var(--font-sans);
+  --key-radius: 6px;
+  --radius: 6px;
+  --radius-sm: 5px;
+}
+
+/* 9 Shells: black anodized, gold readouts. */
+:root[data-era="9"] {
+  --plastic: #0a0a0a;
+  --key: #1a1814;
+  --key-text: #efe6d2;
+  --key-sub: #8a8273;
+  --engrave: #7a7466;
+  --engrave-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7);
+  --key-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+  --fg: #e9e3d3;
+  --muted: #7a7466;
+  --accent: #ffd27a;
+  --warn: #ff6b6b;
+  --led: #ffd27a;
+  --led-hot: #ff6b6b;
+  --lcd: #111;
+  --lcd-text: #ffd27a;
+  --screen-bg: #000;
+  --screen-fg: #e9e3d3;
+  --font: var(--font-serif);
+  --key-radius: 2px;
+  --radius: 2px;
+  --radius-sm: 2px;
+  --grain: 0.08;
+}
+
+:root[data-era="9"] body {
+  letter-spacing: 0.04em;
+}
+
+/* Winter: the whole unit goes cold while funding is gone. */
+:root[data-winter="1"]:not(.contrast) #app {
+  filter: saturate(0.35) brightness(0.92);
+}
+
+#app {
+  transition: filter 1.2s ease;
+}
+
+/* High contrast overrides every colorway, including the glass. */
+:root.contrast {
+  --plastic: #000;
+  --key: #000;
+  --key-text: #fff;
+  --key-sub: #ddd;
+  --key-hi: #222;
+  --key-lo: #000;
+  --key-side: #777;
+  --engrave: #fff;
+  --engrave-shadow: none;
+  --key-text-shadow: none;
+  --fg: #fff;
+  --muted: #ddd;
+  --accent: #ffff00;
+  --warn: #ff4040;
+  --led: #ffff00;
+  --led-hot: #ff4040;
+  --led-dim: #333;
+  --lcd: #000;
+  --lcd-text: #fff;
+  --screen-bg: #000;
+  --screen-fg: #fff;
+  --grain: 0;
+  --bay: #000;
+  --plastic-2: #000;
+  --plastic-3: #222;
+}
+
+:root.contrast body {
+  text-shadow: none;
+}
+
+:root.contrast .key,
+:root.contrast .button,
+:root.contrast .tabbar .tab,
+:root.contrast .action,
+:root.contrast .chip,
+:root.contrast .glass,
+:root.contrast .gen,
+:root.contrast .proj {
+  outline: 2px solid #fff;
+}

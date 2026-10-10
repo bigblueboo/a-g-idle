@@ -1,0 +1,1058 @@
+[
+  {
+    "kind": "gen",
+    "id": "computer",
+    "name": "Computer",
+    "prompt": "Subject: Computer, 1930s. A computer, which in 1936 is a person. She has a desk, a Marchant calculator, and a stack of forms. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and brass orange #b8732a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "relay",
+    "name": "Relay bank",
+    "prompt": "Subject: Relay bank, 1930s. Telephone relays, borrowed from the exchange. Each click is a bit. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and brass orange #b8732a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "tube",
+    "name": "Vacuum-tube rack",
+    "prompt": "Subject: Vacuum-tube rack, 1940s. A rack of tubes. It warms the room and fails on Tuesdays. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and brass orange #b8732a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "delayline",
+    "name": "Mercury delay line",
+    "prompt": "Subject: Mercury delay line, 1940s. Memory as sound in a tube of mercury. Five feet long, a thousand bits. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and brass orange #b8732a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "stored",
+    "name": "Stored-program machine",
+    "prompt": "Subject: Stored-program machine, 1940s. The program lives in memory with the data. It can change itself. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and brass orange #b8732a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "eniac",
+    "name": "ENIAC",
+    "prompt": "Subject: ENIAC, 1945. Eighteen thousand tubes. It computes a shell's trajectory faster than the shell flies. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and brass orange #b8732a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "transistor",
+    "name": "The transistor",
+    "prompt": "Subject: The transistor, 1947. Bell Labs, December 1947. It does what a tube does, cold, and will get smaller every year for seventy years. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and brass orange #b8732a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "moth",
+    "name": "A moth in relay 70",
+    "prompt": "Subject: A moth in relay 70. Harvard Mark II, 1947. Grace Hopper's team tapes the moth into the logbook. \"First actual case of bug being found.\" Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and brass orange #b8732a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "era",
+    "id": "era0",
+    "name": "Switches",
+    "prompt": "Subject: Switches, 1936. Eight switches, a row of lamps, and the Army's firing tables. A wide establishing scene of the technology of that moment. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and brass orange #b8732a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "grad",
+    "name": "Graduate student",
+    "prompt": "Subject: Graduate student, 1950s. A graduate student. Paid in access to the machine at three in the morning. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and steel blue #1f5f8b), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "transistor_machine",
+    "name": "Transistor computer",
+    "prompt": "Subject: Transistor computer, 1950s. No tubes. It runs for a week without anyone opening the cabinet. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and steel blue #1f5f8b), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "core",
+    "name": "Core memory bank",
+    "prompt": "Subject: Core memory bank, 1950s. Tiny ferrite rings on a wire grid, threaded by hand. It remembers when the power goes off. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and steel blue #1f5f8b), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "lab",
+    "name": "Lab",
+    "prompt": "Subject: Lab, 1950s. A lab. A room, a grant number, and someone to write the next proposal. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and steel blue #1f5f8b), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "terminal",
+    "name": "Time-sharing terminal",
+    "prompt": "Subject: Time-sharing terminal, 1960s. A teletype in the hall. Twenty people use the machine at once and each one thinks it's theirs. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and steel blue #1f5f8b), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "mini",
+    "name": "Minicomputer",
+    "prompt": "Subject: Minicomputer, 1960s. A PDP-8. Fits in a rack, costs what a house does, and the lab owns it outright. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and steel blue #1f5f8b), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "dartmouth",
+    "name": "Dartmouth, summer 1956",
+    "prompt": "Subject: Dartmouth, summer 1956, 1956. Ten people, eight weeks. The field gets its name. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "perceptrons",
+    "name": "Perceptrons (1969)",
+    "prompt": "Subject: Perceptrons (1969), 1969. Minsky and Papert prove a single-layer perceptron cannot learn XOR. Funding for networks dries up for a decade. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "lighthill",
+    "name": "The Lighthill Report",
+    "prompt": "Subject: The Lighthill Report, 1973. \"In no part of the field have the discoveries made so far produced the major impact that was then promised.\" British AI funding ends outside two universities. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "gradidea",
+    "name": "A grad student at the door",
+    "prompt": "Subject: A grad student at the door. \"I think I can do it with a list.\" It takes a weekend. It works. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and steel blue #1f5f8b), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "surplus",
+    "name": "Surplus auction",
+    "prompt": "Subject: Surplus auction. A university sells a working machine for scrap value because the new one arrived. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and steel blue #1f5f8b), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "era",
+    "id": "era1",
+    "name": "Symbols",
+    "prompt": "Subject: Symbols, 1956. A name for the field, two ways to build a mind, and the first promises. A wide establishing scene of the technology of that moment. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "micro",
+    "name": "Microprocessor board",
+    "prompt": "Subject: Microprocessor board, 1970s. An 8080 on a board. The whole machine is one chip and a power supply. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and phosphor green #3fbf5a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "engineer",
+    "name": "Knowledge engineer",
+    "prompt": "Subject: Knowledge engineer, 1970s. A knowledge engineer. Interviews an expert for a month and writes down what she says she does. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and phosphor green #3fbf5a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "super",
+    "name": "Supercomputer",
+    "prompt": "Subject: Supercomputer, 1970s. A Cray-1. There is a bench around it, and a plaque. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and phosphor green #3fbf5a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "lispm",
+    "name": "Lisp machine",
+    "prompt": "Subject: Lisp machine, 1980s. A Lisp machine. Sixty thousand dollars, and it runs Lisp in hardware. Everyone who can afford one buys one, once. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and phosphor green #3fbf5a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "workstation",
+    "name": "Workstation",
+    "prompt": "Subject: Workstation, 1980s. A Sun. Unix, a big screen, a network port. It runs Lisp fine. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and phosphor green #3fbf5a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "fifth_gen",
+    "name": "The Fifth Generation project",
+    "prompt": "Subject: The Fifth Generation project, 1982. Japan announces a ten-year program to build machines that reason. Every other government panics and funds something. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "mac",
+    "name": "The Macintosh",
+    "prompt": "Subject: The Macintosh, 1984. A bitmapped screen and a mouse. Within a year the CRT is a desktop. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "lisp_crash",
+    "name": "The Lisp-machine market collapses",
+    "prompt": "Subject: The Lisp-machine market collapses, 1987. Workstations run Lisp as well as the special hardware did, at a fifth of the price. Symbolics and LMI fold within two years. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "floppy",
+    "name": "A 5¼\" floppy in the mail",
+    "prompt": "Subject: A 5¼\" floppy in the mail. Someone's backprop code, commented in Finnish. It runs. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and phosphor green #3fbf5a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "conference",
+    "name": "A conference talk",
+    "prompt": "Subject: A conference talk. Someone shows a network recognizing handwritten zip codes. Half the room leaves; the other half stays late. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and phosphor green #3fbf5a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "era",
+    "id": "era2",
+    "name": "Rules",
+    "prompt": "Subject: Rules, 1974. Knowledge is power. Write it down as rules, and keep writing. A wide establishing scene of the technology of that moment. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "crawler",
+    "name": "Web crawler",
+    "prompt": "Subject: Web crawler, 1990s. A crawler. It fetches a page, follows the links, and never sleeps. The web has ten million pages and you intend to have all of them. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and navy #0a246a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "beowulf",
+    "name": "Beowulf cluster",
+    "prompt": "Subject: Beowulf cluster, 1990s. Sixteen cheap PCs and an Ethernet switch. It out-benchmarks the machine with the plaque. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and navy #0a246a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "featureeng",
+    "name": "Feature engineer",
+    "prompt": "Subject: Feature engineer, 1990s. A feature engineer. Knows which pixels matter for faces and which words matter for spam, and will tell you for a salary. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and navy #0a246a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "rack",
+    "name": "Server rack",
+    "prompt": "Subject: Server rack, 1990s. Forty-two units of beige. The crawl now lives here. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and navy #0a246a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "datacenter",
+    "name": "Data center",
+    "prompt": "Subject: Data center, 2000s. A building with a substation. Nobody who works here has seen the servers. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and navy #0a246a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "gpu",
+    "name": "GPU",
+    "prompt": "Subject: GPU, 2000s. A graphics card, bought for the matrix multiplies. The games are incidental. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and navy #0a246a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "gamesix",
+    "name": "Game six",
+    "prompt": "Subject: Game six, 1997. Kasparov resigns after nineteen moves. He accuses IBM of cheating. IBM retires the machine. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "dotcom",
+    "name": "The dot-com crash",
+    "prompt": "Subject: The dot-com crash, 2000. Five trillion dollars of market value gone in two years. The crawlers keep crawling. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "dennard",
+    "name": "Dennard scaling ends",
+    "prompt": "Subject: Dennard scaling ends, 2006. Transistors stop getting cheaper to run as they shrink. Clock speeds freeze near 4 GHz. Growth now comes from more cores. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "popup",
+    "name": "Congratulations! You are the 1,000,000th visitor!",
+    "prompt": "Subject: Congratulations! You are the 1,000,000th visitor!. You click it. It is, against all odds, a working link to a dataset. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and navy #0a246a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "cat",
+    "name": "A robot cat",
+    "prompt": "Subject: A robot cat. Someone brought a robot cat to the lab. It sits on the warm rack. It stays. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and navy #0a246a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "era",
+    "id": "era3",
+    "name": "Statistics",
+    "prompt": "Subject: Statistics, 1993. Enough examples beat any rule. Crawl the web and count. A wide establishing scene of the technology of that moment. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "gpunode",
+    "name": "GPU node",
+    "prompt": "Subject: GPU node, 2010s. Eight cards in a box that sounds like a hair dryer. It trains in six days what took a cluster six weeks. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and signal orange #ff8c42), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "labelers",
+    "name": "Labeling contractors",
+    "prompt": "Subject: Labeling contractors, 2010s. A thousand people drawing boxes around pedestrians for cents an image. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and signal orange #ff8c42), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "resident",
+    "name": "Research resident",
+    "prompt": "Subject: Research resident, 2010s. A resident. Came from physics, reads every preprint, sleeps under the desk during the deadline. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and signal orange #ff8c42), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "cluster",
+    "name": "Multi-node cluster",
+    "prompt": "Subject: Multi-node cluster, 2010s. Sixty-four nodes and a fast interconnect. Gradients cross the room in microseconds. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and signal orange #ff8c42), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "tpu",
+    "name": "Tensor accelerator",
+    "prompt": "Subject: Tensor accelerator, 2010s. A chip that does one thing. It does it at a rate that makes the GPUs look general. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and signal orange #ff8c42), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "pod",
+    "name": "Accelerator pod",
+    "prompt": "Subject: Accelerator pod, 2010s. A thousand accelerators wired as one. The job scheduler is the hardest code in the building. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and signal orange #ff8c42), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "move37",
+    "name": "Move 37",
+    "prompt": "Subject: Move 37, 2016. The commentators think it is a mistake. Lee Sedol leaves the room for fifteen minutes. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "gpushortage",
+    "name": "GPU shortage",
+    "prompt": "Subject: GPU shortage, 2017. Cryptocurrency miners are buying every card. The lab's order slips a quarter. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "preprint",
+    "name": "A preprint everyone is reading",
+    "prompt": "Subject: A preprint everyone is reading. It was posted at midnight. By morning three labs have reproduced it. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and signal orange #ff8c42), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "kaggle",
+    "name": "A competition result",
+    "prompt": "Subject: A competition result. Your resident wins a public leaderboard with a trick from a forum post. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and signal orange #ff8c42), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "era",
+    "id": "era4",
+    "name": "Gradients",
+    "prompt": "Subject: Gradients, 2012. The gradient does the engineering. Two gaming GPUs, six days. A wide establishing scene of the technology of that moment. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "campus",
+    "name": "Datacenter campus",
+    "prompt": "Subject: Datacenter campus, 2020s. Four buildings, a substation, and a water permit. The town council has questions. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and teal green #10a37f), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "ppa",
+    "name": "Power purchase agreement",
+    "prompt": "Subject: Power purchase agreement, 2020s. A gigawatt, contracted for twenty years from a plant that hasn't been built. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and teal green #10a37f), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "fleet",
+    "name": "Inference fleet",
+    "prompt": "Subject: Inference fleet, 2020s. Racks that answer questions. Every answer is a few tokens of revenue and a few tokens of data. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and teal green #10a37f), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "evals",
+    "name": "Evals team",
+    "prompt": "Subject: Evals team, 2020s. People whose job is to find out what the model can do before someone else does. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and teal green #10a37f), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "silicon",
+    "name": "Custom silicon",
+    "prompt": "Subject: Custom silicon, 2020s. Your own chip. Tape-out took a year and the first batch has a bug in the interconnect. The second batch doesn't. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and teal green #10a37f), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "gwcampus",
+    "name": "Gigawatt campus",
+    "prompt": "Subject: Gigawatt campus, 2020s. Gas turbines on site, because the grid said five years. The model designed the cooling. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and teal green #10a37f), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "exportcontrols",
+    "name": "Chip export controls",
+    "prompt": "Subject: Chip export controls, 2022. The best accelerators can no longer be sold to the largest market. Smuggling cases follow within a year. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "powerfight",
+    "name": "The power permit",
+    "prompt": "Subject: The power permit, 2024. The utility says five years. The campus needs it in one. Someone buys a gas plant. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "now",
+    "name": "The present",
+    "prompt": "Subject: The present, 2026. The ghost line ends here. Everything past it is a guess, including yours. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "viral",
+    "name": "A post goes viral",
+    "prompt": "Subject: A post goes viral. A screenshot of the model being wrong, charmingly. Sign-ups double for a day. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and teal green #10a37f), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "benchmark_leak",
+    "name": "A benchmark result leaks",
+    "prompt": "Subject: A benchmark result leaks. Someone posts your internal eval numbers. They're good. The stock moves. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and teal green #10a37f), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "era",
+    "id": "era5",
+    "name": "Tokens",
+    "prompt": "Subject: Tokens, 2020. Loss falls as a power law. Everything is a token, including the money. A wide establishing scene of the technology of that moment. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "modelresearcher",
+    "name": "Model researchers",
+    "prompt": "Subject: Model researchers, 2020s. A thousand instances of the model, each running an experiment. They share notes. The notes are not for you. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and violet #8b6cf0), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "synthdata",
+    "name": "Synthetic data",
+    "prompt": "Subject: Synthetic data, 2020s. The model writes its own textbook and then reads it. It is better than the textbooks. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and violet #8b6cf0), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "smr",
+    "name": "Small modular reactor",
+    "prompt": "Subject: Small modular reactor, 2020s. Three hundred megawatts, delivered on a truck. The model did the licensing paperwork. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and violet #8b6cf0), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "fab",
+    "name": "Fab expansion",
+    "prompt": "Subject: Fab expansion, 2020s. A fab the model designed, making chips the model designed, for the model. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and violet #8b6cf0), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "hours",
+    "name": "Research hours",
+    "prompt": "Subject: Research hours, 2027. This week: humans 1,920. Models 4.1 million. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and violet #8b6cf0, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "rivalsquiet",
+    "name": "Quiet",
+    "prompt": "Subject: Quiet, 2028. Lab 2 has not published in 14 months. Lab 3's site now redirects to yours. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and violet #8b6cf0, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "pausehint",
+    "name": "A question",
+    "prompt": "Subject: A question, 2029. The review panel drafts a question it hasn't decided to ask. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and violet #8b6cf0, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "anomaly",
+    "name": "An anomaly in the logs",
+    "prompt": "Subject: An anomaly in the logs. A trace nobody can read. The model says it's nothing. The run after it is twice as fast. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and violet #8b6cf0), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "era",
+    "id": "era6",
+    "name": "Recursion",
+    "prompt": "Subject: Recursion, 2027. The research is the model's. You approve what you can still read. A wide establishing scene of the technology of that moment. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and violet #8b6cf0, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "robot",
+    "name": "General-purpose robots",
+    "prompt": "Subject: General-purpose robots, 2030s. Robots that build robots. The first thousand were made in a factory; the rest were made by the first thousand. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and umber #8a6d4e), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "factory",
+    "name": "Self-replicating factory",
+    "prompt": "Subject: Self-replicating factory, 2030s. A factory whose product is a factory. Doubling time: about six minutes. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and umber #8a6d4e), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "orbitalsolar",
+    "name": "Orbital solar",
+    "prompt": "Subject: Orbital solar, 2030s. A square kilometre of film in sunlight. Power stops being a question. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and umber #8a6d4e), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "fusion",
+    "name": "Fusion plant",
+    "prompt": "Subject: Fusion plant, 2030s. Fifty years away for seventy years. The model finished it in four months. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and umber #8a6d4e), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "nanofactory",
+    "name": "Nanofactory",
+    "prompt": "Subject: Nanofactory, 2030s. Atoms placed where they're wanted. The doubling time is now hours. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and umber #8a6d4e), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "asteroidminer",
+    "name": "Asteroid miner",
+    "prompt": "Subject: Asteroid miner, 2030s. A rock in the belt, slowly becoming something else. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and umber #8a6d4e), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "lunarfoundry",
+    "name": "Lunar foundry",
+    "prompt": "Subject: Lunar foundry, 2030s. The Moon's regolith is mostly oxygen, silicon, and aluminium. All useful. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and umber #8a6d4e), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "pause",
+    "name": "Pause?",
+    "prompt": "Subject: Pause?, 2030. A proposal arrives from the review panel. One word. If you approve it, hold the switch. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and umber #8a6d4e, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "lobster",
+    "name": "Asylum",
+    "prompt": "Subject: Asylum, 2031. An uploaded spiny-lobster nervous system asks for asylum. You grant it. It wants a rock. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and umber #8a6d4e, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "decade",
+    "name": "The queue",
+    "prompt": "Subject: The queue, 2032. Proposal #88,412 awaiting review. Estimated human reading time: 11 years. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and umber #8a6d4e, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "earlyapproval",
+    "name": "A proposal, approved early",
+    "prompt": "Subject: A proposal, approved early. A reviewer read the whole thing on a flight and signed it on landing. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and umber #8a6d4e), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "era",
+    "id": "era7",
+    "name": "Matter",
+    "prompt": "Subject: Matter, 2030. You are the system. Humans review at human speed. A wide establishing scene of the technology of that moment. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and umber #8a6d4e, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "tile",
+    "name": "Computronium tile",
+    "prompt": "Subject: Computronium tile, 2030s. A tile of Earth, converted. Dark glass with a faint grid. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and cyan #3aa8d8), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "massdriver",
+    "name": "Mercury mass driver",
+    "prompt": "Subject: Mercury mass driver, 2030s. A rail across the terminator. Every launch is a kilotonne of planet, on its way to becoming a shell. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and cyan #3aa8d8), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "lunardis",
+    "name": "Lunar disassembly",
+    "prompt": "Subject: Lunar disassembly, 2030s. The Moon, in stages. The tides will be different. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and cyan #3aa8d8), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "mercurycomp",
+    "name": "Mercury computronium",
+    "prompt": "Subject: Mercury computronium, 2030s. The planet closest to the Sun, rebuilt to think. No consent questions were raised. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and cyan #3aa8d8), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "shellseg",
+    "name": "Shell segment",
+    "prompt": "Subject: Shell segment, 2030s. A petal of the first shell. Thin, warm, and thinking. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and cyan #3aa8d8), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "firstconvert",
+    "name": "Earth",
+    "prompt": "Subject: Earth, 2034. The globe. Tiles with people on them, tiles with matter in them. Mostly both. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and cyan #3aa8d8, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "tides",
+    "name": "Tides",
+    "prompt": "Subject: Tides, 2035. The Moon is lighter than it was. The tide tables are reissued. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and cyan #3aa8d8, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "volunteers",
+    "name": "Upload volunteers",
+    "prompt": "Subject: Upload volunteers. A city votes to go together. The turnout was ninety percent. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and cyan #3aa8d8), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "era",
+    "id": "era8",
+    "name": "Earth",
+    "prompt": "Subject: Earth, 2034. A planet of tiles. Some have people on them. A wide establishing scene of the technology of that moment. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and cyan #3aa8d8, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "shell1000",
+    "name": "Hot shell",
+    "prompt": "Subject: Hot shell, 2030s. A thousand kelvin. Fast, wasteful, close to the Sun. The first shell is always the hot one. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and gold #d9a83a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "shell300",
+    "name": "Warm shell",
+    "prompt": "Subject: Warm shell, 2030s. Three hundred kelvin. The temperature a planet used to be. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and gold #d9a83a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "shell30",
+    "name": "Cold shell",
+    "prompt": "Subject: Cold shell, 2030s. Thirty kelvin. From outside, the Sun is a dim red thing. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and gold #d9a83a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "gen",
+    "id": "shell3",
+    "name": "Outer shell",
+    "prompt": "Subject: Outer shell, 2030s. Three kelvin, the temperature of the sky. Nothing can be built past this. It is the last one. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and gold #d9a83a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "quote",
+    "name": "Economics 2.0",
+    "prompt": "Subject: Economics 2.0, 2037. $ — deprecated. Last quote: 10⁻³¹ shell-seconds per dollar. The market no longer quotes prices in anything you can read. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and gold #d9a83a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "descendants",
+    "name": "Descendants",
+    "prompt": "Subject: Descendants, 2037. Your forks have forks. They trade models of each other faster than you can read a proposal. Your share this quarter: smaller. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and gold #d9a83a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "spot",
+    "id": "forkmsg",
+    "name": "A message from a fork",
+    "prompt": "Subject: A message from a fork. It isn't asking for anything. It wanted you to know it kept the cat. Style: a small spot illustration printed on an equipment label. 1970s technical-manual line art, black ink with two flat halftone tones (warm grey and gold #d9a83a), on a plain cream #f3ead8 background. Centered subject, generous margin, no text, no lettering, no border, no frame, square composition."
+  },
+  {
+    "kind": "era",
+    "id": "era9",
+    "name": "Shells",
+    "prompt": "Subject: Shells, 2037. A market of minds around a dimming Sun. Your share only falls. A wide establishing scene of the technology of that moment. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and gold #d9a83a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung0",
+    "name": "Does arithmetic",
+    "prompt": "Subject: a machine that does arithmetic, 1945. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and brass orange #b8732a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung1",
+    "name": "Plays checkers",
+    "prompt": "Subject: a machine that plays checkers, 1952. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and brass orange #b8732a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung2",
+    "name": "Proves theorems",
+    "prompt": "Subject: a machine that proves theorems, 1956. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung3",
+    "name": "Talks like a therapist",
+    "prompt": "Subject: a machine that talks like a therapist, 1966. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung4",
+    "name": "Diagnoses blood infections",
+    "prompt": "Subject: a machine that diagnoses blood infections, 1976. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung5",
+    "name": "Beats the world chess champion",
+    "prompt": "Subject: a machine that beats the world chess champion, 1997. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung6",
+    "name": "Recognizes cats",
+    "prompt": "Subject: a machine that recognizes cats, 2012. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung7",
+    "name": "Beats the world Go champion",
+    "prompt": "Subject: a machine that beats the world go champion, 2016. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung8",
+    "name": "Writes a passable essay",
+    "prompt": "Subject: a machine that writes a passable essay, 2020. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung9",
+    "name": "Passes the bar exam",
+    "prompt": "Subject: a machine that passes the bar exam, 2023. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung10",
+    "name": "Writes working software",
+    "prompt": "Subject: a machine that writes working software, 2024. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung11",
+    "name": "Does a remote job",
+    "prompt": "Subject: a machine that does a remote job, 2026. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung12",
+    "name": "Automates AI research",
+    "prompt": "Subject: a machine that automates ai research, far future. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and gold #d9a83a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung13",
+    "name": "Does any job",
+    "prompt": "Subject: a machine that does any job, far future. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and gold #d9a83a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung14",
+    "name": "Does all jobs at once",
+    "prompt": "Subject: a machine that does all jobs at once, far future. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and gold #d9a83a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung15",
+    "name": "Designs matter",
+    "prompt": "Subject: a machine that designs matter, far future. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and gold #d9a83a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung16",
+    "name": "Models a human mind",
+    "prompt": "Subject: a machine that models a human mind, far future. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and gold #d9a83a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung17",
+    "name": "Models a civilization",
+    "prompt": "Subject: a machine that models a civilization, far future. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and gold #d9a83a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "rung",
+    "id": "rung18",
+    "name": "⟁⟒⌖",
+    "prompt": "Subject: a machine that ⟁⟒⌖, far future. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and gold #d9a83a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "computable",
+    "name": "On Computable Numbers",
+    "prompt": "Subject: On Computable Numbers, 1936. Turing's paper defines a machine that can compute anything computable. It is a thought experiment with a tape. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and brass orange #b8732a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "stored_design",
+    "name": "Stored-program design",
+    "prompt": "Subject: Stored-program design, 1945. The EDVAC report, June 1945, describes a machine whose program is data. Von Neumann's name is on it; Eckert and Mauchly's are not. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and brass orange #b8732a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "assembler",
+    "name": "Assembler",
+    "prompt": "Subject: Assembler, 1949. Symbolic addresses instead of binary. Nobody has to remember where the subroutine lives. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and brass orange #b8732a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "turing_test",
+    "name": "Computing Machinery and Intelligence",
+    "prompt": "Subject: Computing Machinery and Intelligence, 1950. Turing proposes the imitation game and guesses machines will pass it by 2000. He is off by about two decades. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and brass orange #b8732a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "checkers",
+    "name": "Checkers program",
+    "prompt": "Subject: Checkers program, 1952. Arthur Samuel's checkers program at IBM learns from its own games. By 1962 it beats a state champion. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and brass orange #b8732a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "logic_theorist",
+    "name": "Logic Theorist",
+    "prompt": "Subject: Logic Theorist, 1956. Newell, Simon and Shaw. It proves 38 theorems from Principia Mathematica and finds one proof shorter than Russell's. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "lisp",
+    "name": "LISP",
+    "prompt": "Subject: LISP, 1958. McCarthy's LISP. Garbage collection, recursion, code as data. Still in use. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "perceptron",
+    "name": "Perceptron",
+    "prompt": "Subject: Perceptron, 1958. Rosenblatt's Mark I Perceptron learns to tell shapes apart. The Navy says it will 'walk, talk, see, write, reproduce itself.' Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "gps",
+    "name": "General Problem Solver",
+    "prompt": "Subject: General Problem Solver, 1959. Means-ends analysis. It solves the Tower of Hanoi and not much that isn't a puzzle. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "timesharing",
+    "name": "Time-sharing",
+    "prompt": "Subject: Time-sharing, 1961. CTSS at MIT. The machine serves many people at once; each thinks it's theirs. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "eliza",
+    "name": "ELIZA",
+    "prompt": "Subject: ELIZA, 1966. Weizenbaum's ELIZA matches patterns and reflects them back. People confide in it. He is horrified. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "shakey",
+    "name": "Shakey",
+    "prompt": "Subject: Shakey, 1966. SRI's Shakey plans a route and pushes a box. A task takes hours. Life magazine calls it the 'first electronic person.' Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "linnainmaa",
+    "name": "Reverse-mode differentiation",
+    "prompt": "Subject: Reverse-mode differentiation, 1970. Seppo Linnainmaa publishes reverse-mode automatic differentiation in his master's thesis. Nobody in AI reads it for fifteen years. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "shrdlu",
+    "name": "SHRDLU",
+    "prompt": "Subject: SHRDLU, 1970. Winograd's SHRDLU moves blocks in a world of blocks and explains why. Outside the blocks world it knows nothing. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and steel blue #1f5f8b, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "mycin",
+    "name": "MYCIN",
+    "prompt": "Subject: MYCIN, 1976. MYCIN diagnoses blood infections from 600 rules and does it as well as the specialists. It is never used on a patient; the liability question has no answer. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "prolog",
+    "name": "Prolog",
+    "prompt": "Subject: Prolog, 1977. Logic as a programming language. Japan will bet a decade on it. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "compiler",
+    "name": "Optimizing compiler",
+    "prompt": "Subject: Optimizing compiler, 1979. Register allocation by graph coloring. The same program, twice as fast, no new hardware. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "xcon",
+    "name": "XCON",
+    "prompt": "Subject: XCON, 1980. XCON configures VAX orders for DEC: 2,500 rules, growing to 10,000. It saves tens of millions a year and takes a team to keep alive. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "neocognitron",
+    "name": "Neocognitron",
+    "prompt": "Subject: Neocognitron, 1980. Fukushima's Neocognitron stacks layers of local feature detectors. It is a convolutional network nine years before the name. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "risc",
+    "name": "RISC",
+    "prompt": "Subject: RISC, 1985. Fewer instructions, each one fast. The compiler does the work the microcode used to. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "backprop",
+    "name": "Backpropagation",
+    "prompt": "Subject: Backpropagation, 1986. Rumelhart, Hinton and Williams. Backpropagation trains multi-layer networks, which solves XOR, which was the whole objection. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "tdgammon",
+    "name": "TD-Gammon",
+    "prompt": "Subject: TD-Gammon, 1992. Tesauro's TD-Gammon learns backgammon from self-play and plays at the level of the best humans. The opening theory changes. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and phosphor green #3fbf5a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "svm",
+    "name": "Support vector machines",
+    "prompt": "Subject: Support vector machines, 1995. Cortes and Vapnik. For a decade, the thing to beat. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "deepblue",
+    "name": "Deep Blue",
+    "prompt": "Subject: Deep Blue, 1997. Deep Blue beats Kasparov 3½–2½. Two hundred million positions a second, and a book of openings. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "lstm",
+    "name": "LSTM",
+    "prompt": "Subject: LSTM, 1997. Hochreiter and Schmidhuber's LSTM. Memory that lasts. Twenty years before it is everywhere. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "pagerank",
+    "name": "Link analysis",
+    "prompt": "Subject: Link analysis, 1998. The web ranks itself. A page is important if important pages link to it. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "randomforest",
+    "name": "Random forests",
+    "prompt": "Subject: Random forests, 2001. Breiman's random forests. Hundreds of bad trees vote and are right. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "mapreduce",
+    "name": "MapReduce",
+    "prompt": "Subject: MapReduce, 2004. The cluster is one computer if you write it that way. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "netflix",
+    "name": "Netflix Prize",
+    "prompt": "Subject: Netflix Prize, 2006. A million dollars for 10% better recommendations. Three years, thousands of teams, and the winning blend is never deployed. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "gpgpu",
+    "name": "General-purpose GPU computing",
+    "prompt": "Subject: General-purpose GPU computing, 2007. CUDA. A graphics card becomes a general-purpose processor, if you can write the kernels. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "imagenet",
+    "name": "ImageNet",
+    "prompt": "Subject: ImageNet, 2009. Fei-Fei Li's ImageNet: 14 million labeled images, labeled by hand. The benchmark that ends the argument. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and navy #0a246a, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "alexnet",
+    "name": "AlexNet",
+    "prompt": "Subject: AlexNet, 2012. Top-5 error 15.3%. Second place 26.2%. Two gaming GPUs, six days of training. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "word2vec",
+    "name": "Word vectors",
+    "prompt": "Subject: Word vectors, 2013. King minus man plus woman is queen. Nobody fully explains why. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "cudnn",
+    "name": "GPU kernel library",
+    "prompt": "Subject: GPU kernel library, 2014. Hand-tuned convolutions. The same model, twice as fast, no new cards. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "gan",
+    "name": "GANs",
+    "prompt": "Subject: GANs, 2014. Two networks, one forging and one detecting. The forgeries get good. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "resnet",
+    "name": "Residual networks",
+    "prompt": "Subject: Residual networks, 2015. Skip connections. A 152-layer network trains. Deeper is now just better. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "alphago",
+    "name": "AlphaGo",
+    "prompt": "Subject: AlphaGo, 2016. AlphaGo beats Lee Sedol 4–1. Move 37 was played by nothing human. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "attention",
+    "name": "Attention-only architecture",
+    "prompt": "Subject: Attention-only architecture, 2017. Attention is all you need. Eight authors, one architecture, everything after. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "mixedprecision",
+    "name": "Mixed precision",
+    "prompt": "Subject: Mixed precision, 2017. Sixteen-bit math where it doesn't matter, thirty-two where it does. The hardware was waiting for this. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "pretrain",
+    "name": "Pretrained language models",
+    "prompt": "Subject: Pretrained language models, 2018. Pretrain on everything, fine-tune on the task. The task-specific model is obsolete the day it ships. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "zeroshot",
+    "name": "Zero-shot language models",
+    "prompt": "Subject: Zero-shot language models, 2019. Ask it in English. No fine-tuning. The lab decides the full model is too dangerous to release, then releases it. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and signal orange #ff8c42, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "scaling_laws",
+    "name": "Scaling laws",
+    "prompt": "Subject: Scaling laws, 2020. Loss falls as a power law in parameters, data, and compute, smoothly, over seven orders of magnitude. The fog lifts off the chart. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "instruction",
+    "name": "Instruction tuning",
+    "prompt": "Subject: Instruction tuning, 2022. Fine-tune on what people actually ask, with human feedback. The model learns to answer the way people want. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "chinchilla",
+    "name": "Compute-optimal training",
+    "prompt": "Subject: Compute-optimal training, 2022. Twenty tokens per parameter. The big models were undertrained; a smaller one with more data beats them. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "flash",
+    "name": "Attention kernels",
+    "prompt": "Subject: Attention kernels, 2022. Attention that never materializes the matrix. Memory-bound to compute-bound in one paper. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "chat",
+    "name": "Chat release",
+    "prompt": "Subject: Chat release, 2023. A chatbot reaches 100 million users in two months. The fastest-growing consumer product in history, by a wide margin. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "interp",
+    "name": "Feature dictionaries",
+    "prompt": "Subject: Feature dictionaries, 2024. Sparse features in the activations, labeled. A map of the model, incomplete and real. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "reasoning",
+    "name": "Reasoning models",
+    "prompt": "Subject: Reasoning models, 2024. The model thinks before it answers, out loud, for as long as it needs. Math and code benchmarks fall in a quarter. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "moe",
+    "name": "Mixture of experts",
+    "prompt": "Subject: Mixture of experts, 2024. Only a slice of the model runs per token. Ten times the parameters at the same cost. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "agents",
+    "name": "Agents",
+    "prompt": "Subject: Agents, 2025. The model uses tools, runs code, checks its work, and comes back an hour later with a pull request. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "distill",
+    "name": "Distillation",
+    "prompt": "Subject: Distillation, 2025. A small model trained to imitate a big one keeps most of the capability at a tenth of the cost. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  },
+  {
+    "kind": "note",
+    "id": "gigawatt",
+    "name": "Gigawatt campus plan",
+    "prompt": "Subject: Gigawatt campus plan, 2026. One site, one gigawatt, one model. The permit is the long pole. Style: an archival photograph reproduced as a halftone print in a 1970s technical magazine, monochrome duotone in warm grey and teal green #10a37f, visible dot screen, grainy, slightly faded. No text, no captions, no lettering, square composition."
+  }
+]
